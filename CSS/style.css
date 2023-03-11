@@ -1,0 +1,443 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+    font-family: 'Alegreya', serif;
+}
+
+.nav {
+    background-color: transparent;
+    position: fixed;
+
+    z-index: 2;
+    width: 100%;
+
+
+}
+
+.nav .logo {
+    width: 40%;
+    float: left;
+    padding: 20px;
+    margin-left: 50px;
+
+
+}
+
+.nav .logo img {
+    width: 25%;
+}
+
+.nav .menu {
+
+    width: 40%;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.nav .menu ul {
+    float: right;
+    list-style: none;
+}
+
+.nav .menu ul li {
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav .menu ul li:hover {
+    color: #e0c690;
+}
+
+.clr {
+    clear: both;
+}
+
+
+.header {
+    background-image: url(../Images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.header .header-caption {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header .header-caption .p1 {
+    font-size: 22px;
+    line-height: 41px;
+    padding: 15px;
+}
+
+.header .header-caption h1 {
+    font-size: 76px;
+    line-height: 91px;
+    padding: 10px;
+}
+
+.header .header-caption .p2 {
+    font-size: 24px;
+    line-height: 45px;
+    padding: 20px;
+}
+
+.header .header-caption .btn {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 28px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 7px;
+
+}
+
+.header .header-caption .btn1 {
+    background-color: #8e7754;
+}
+
+.header .header-caption .btn2 {
+    background-color: transparent;
+    border-color: white;
+}
+
+.header .header-caption .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.who {
+    padding: 50px;
+
+}
+
+.who .pic {
+    width: 50%;
+    padding: 50px;
+    float: left;
+
+}
+
+.who .pic img {
+    width: 100%;
+}
+
+.who .caption {
+    width: 50%;
+    float: right;
+    padding: 50px;
+}
+
+.who .caption h3 {
+    font-size: 32px;
+    line-height: 44px;
+    color: #303030;
+}
+
+.who .caption p {
+    font-size: 17px;
+    line-height: 32px;
+    color: #686868;
+}
+
+.who .caption ul li {
+    font-size: 17px;
+    line-height: 32px;
+    color: #686868;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.who .caption ul span {
+    font-size: 24px;
+    line-height: 44px;
+    color: #8e7754;
+    border: rgba(0, 0, 0, 0.15) 1px solid;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+
+}
+
+
+
+
+
+
+
+
+
+.location {
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.location .pic {
+    width: 50%;
+    padding: 50px;
+    float: right;
+
+}
+
+.location .pic img {
+    width: 100%;
+}
+
+.location .caption {
+    width: 50%;
+    float: left;
+    padding: 50px;
+}
+
+.location .caption h3 {
+    font-size: 32px;
+    line-height: 44px;
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+.location .caption p {
+    font-size: 17px;
+    line-height: 32px;
+    color: #686868;
+}
+
+.baking {
+    padding: 70px;
+    text-align: center;
+}
+.baking h4 
+{
+    font-size: 30px;
+    line-height: 41px;
+    color: #303030;
+    padding: 15px;
+}
+.baking p 
+{
+    font-size: 17px;
+    line-height: 32px;
+    color: #888888;
+    padding: 15px;
+}
+
+.baking .item {
+    width: 33.3333333%;
+    padding: 10px;
+    float: left;
+}
+
+.baking .item img 
+{
+    width: 100%;
+    padding: 15px;
+}
+.baking .item h5 
+{
+    color: #303030;
+    font-size: 22px;
+    line-height: 30px;
+    padding: 15px;
+}
+
+.baking .item p {
+    font-size: 17px;
+    line-height: 32px;
+    color: #686868;
+    padding: 15px;
+}
+
+.contact {
+    padding: 50px;
+
+}
+
+.contact .pic {
+    width: 50%;
+    padding: 50px;
+    float: right;
+
+}
+
+.contact .pic img {
+    width: 110%;
+}
+
+.contact .caption {
+    width: 50%;
+    float: left;
+    padding: 50px;
+}
+
+.contact .caption h3 {
+    font-size: 32px;
+    line-height: 44px;
+    color: #303030;
+    padding-bottom: 10px;
+}
+
+.contact .caption p {
+    font-size: 17px;
+    line-height: 32px;
+    color: #686868;
+}
+
+.contact .caption ul li {
+    font-size: 17px;
+    line-height: 32px;
+    color: #686868;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.contact .caption ul span {
+    font-size: 24px;
+    line-height: 44px;
+    background-color: #8e7754;
+    color: #f8f8f8;
+    border: rgba(0, 0, 0, 0.15) 1px solid;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+
+}
+
+.panel 
+{
+    width: 44px;
+    height: 86px;
+    box-shadow: 0 -1px 17px 1px rgb(0 0 0 / 9%);
+    position: fixed;
+    right: 0;
+    top: 200px;
+border-radius: 5px;
+z-index: 3;
+background-color: white;
+}
+
+.panel i 
+{
+    display: block;padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #666;
+    cursor: pointer;
+}
+.panel i:hover
+{
+    color: #218fe6 ;
+}
+.ex-footer
+{
+    background-color: #403d38;
+    padding: 70px;
+}
+.ex-footer .item 
+{
+    width: 25%;
+    float: left;
+    padding: 20px;
+
+}
+.ex-footer .item h6 
+{
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+}
+.ex-footer .item p 
+{
+    padding: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #969696;
+}
+.ex-footer .item ul li 
+{
+    font-size: 16px;
+    line-height: 30px;
+    color: #969696;
+    padding: 5px;
+}
+.ex-footer .item ul span 
+{
+    font-size: 14px;
+    line-height: 30px;
+    color: #969696;
+}
+.cont 
+{
+    background-image: url(../Images/contact-details-map.png);
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+
+.footer
+{
+    text-align: center;
+    background-color: #353330;
+    padding: 50px;
+}
+
+.footer .icon i
+{
+    width: 40px;
+    height: 40px;
+    background-color: #484540;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 3px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #8c8a86;
+    cursor: pointer; 
+}
+.icon1:hover i
+{
+    color: white;
+    background-color: #014c8c ;
+}
+.icon2:hover i
+{
+    color: white;
+    background-color: #E2785D ;
+}
+.icon3:hover i
+{
+    color: white;
+    background-color: #0275d8 ;
+}
+.icon4:hover i
+{
+    color: white;
+    background-color:#00acee ;
+}
